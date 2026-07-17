@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Atul Deshpande - ML Engineer | GenAI | Agentic Systems | Python Developer"/>
+  <title>Atul Deshpande | ML Engineer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo">
+        <a href="#">Atul Deshpande</a>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Atul Deshpande</h1>
+        <p class="hero-title">ML Engineer | GenAI | Agentic Systems</p>
+        <p class="hero-subtitle">
+          Building production-ready AI systems with focus on retrieval-augmented generation, 
+          autonomous agents, and scalable machine learning infrastructure.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          <a href="#" class="btn btn-outline">Download Resume (PDF)</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Replace with your professional photo -->
+        <img src="assets/profile.jpg" alt="Atul Deshpande" class="profile-photo" />
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I'm an ML engineer specializing in generative AI, agentic workflows, and retrieval systems. 
+        I build end-to-end solutions—from data pipelines and model training to deployment and evaluation—with 
+        an emphasis on reproducibility, scalability, and measurable impact.
+      </p>
+      <p>
+        My work spans multi-agent intelligence engines, RAG architectures for technical QA, 
+        computer vision applications, and competition-grade ML solutions. I'm passionate about 
+        turning research prototypes into reliable, production-ready systems.
+      </p>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+      
+      <!-- Project 1: Intel-Graph -->
+      <article class="project-card featured">
+        <header class="project-header">
+          <h3>Intel-Graph: Autonomous Multi-Agent Lead Intelligence Engine</h3>
+          <span class="badge">Agentic AI • Multi-Agent Systems</span>
+        </header>
+        <p class="project-meta">Python • LangChain • vLLM • Ollama • Pydantic • Graph Architecture</p>
+        <p><strong>Problem</strong>: Automate lead qualification and intelligence gathering for sales teams using autonomous AI agents.</p>
+        <p><strong>Solution</strong>: Designed a multi-agent system where specialized LLM agents collaborate via a graph-based workflow to research, score, and summarize leads from diverse data sources.</p>
+        <p><strong>Impact</strong>:</p>
+        <ul class="results-list">
+          <li>Reduced manual lead research time by ~70% in pilot testing</li>
+          <li>Implemented dynamic agent routing and state management for complex decision workflows</li>
+          <li>Built evaluation harness to measure agent consistency, factuality, and latency</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/AtulDeshpande09/intel-graph" target="_blank" class="btn btn-sm btn-primary">View Code</a>
+          <!-- Add video embed if available -->
+          <!-- <button class="btn btn-sm btn-secondary" onclick="toggleVideo('intel-graph-video')">Watch Demo</button> -->
+        </div>
+        <!-- Hidden video container (uncomment and add YouTube ID when ready) -->
+        <!--
+        <div id="intel-graph-video" class="video-container" style="display:none; margin-top:1rem;">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+        -->
+      </article>
+
+      <!-- Project 2: RAG Technical QA -->
+      <article class="project-card">
+        <header class="project-header">
+          <h3>Retrieval-Augmented Technical QA System</h3>
+          <span class="badge">RAG • NLP • Production ML</span>
+        </header>
+        <p class="project-meta">Python • BGE-M3 • ChromaDB • FastAPI • Evaluation Frameworks</p>
+        <p><strong>Problem</strong>: Enable accurate, context-aware answers to technical questions from domain-specific documentation.</p>
+        <p><strong>Solution</strong>: Built an end-to-end RAG pipeline with optimized chunking, hybrid retrieval (dense + sparse), and rigorous evaluation using MRR, NDCG, and answer faithfulness metrics.</p>
+        <p><strong>Impact</strong>:</p>
+        <ul class="results-list">
+          <li>Achieved 87.4% Top-5 retrieval accuracy on technical QA benchmark</li>
+          <li>Reduced hallucination rate by 31% via answer grounding and citation enforcement</li>
+          <li>Designed modular architecture for easy domain adaptation and A/B testing</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/AtulDeshpande09/rag_placement_assistant" target="_blank" class="btn btn-sm btn-primary">RAG Assistant</a>
+          <a href="https://github.com/AtulDeshpande09/decoder-only-qa-finetuning" target="_blank" class="btn btn-sm btn-secondary">Finetuning Repo</a>
+        </div>
+      </article>
+
+      <!-- Project 3: Amazon ML Challenge -->
+      <article class="project-card">
+        <header class="project-header">
+          <h3>Amazon ML Challenge 2025</h3>
+          <span class="badge">Competition • Ensemble Methods • Feature Engineering</span>
+        </header>
+        <p class="project-meta">Python • Scikit-learn • XGBoost • Cross-Validation • Feature Selection</p>
+        <p><strong>Problem</strong>: Predict [brief problem description] from Amazon's 2025 ML Challenge dataset.</p>
+        <p><strong>Solution</strong>: Engineered domain-aware features, implemented stacked ensemble with XGBoost + Neural Networks, and used rigorous cross-validation to prevent overfitting.</p>
+        <p><strong>Result</strong>: [Add your placement/ranking if notable, e.g., "Top 5% of 2,000+ participants"]</p>
+        <div class="project-links">
+          <a href="https://github.com/AtulDeshpande09/Amazon_ML_2025" target="_blank" class="btn btn-sm btn-primary">View Solution</a>
+        </div>
+      </article>
+
+      <!-- Project 4: Reddit Sentiment (Fun/Personality) -->
+      <article class="project-card">
+        <header class="project-header">
+          <h3>Reddit Sentiment Analyzer</h3>
+          <span class="badge">NLP • Social Media • Ethics-Aware</span>
+        </header>
+        <p class="project-meta">Python • Transformers • Hugging Face • Streamlit</p>
+        <p><em>"I don't like to hurt sentiments, so I analyzed them instead."</em></p>
+        <p>Lightweight NLP tool for analyzing sentiment trends in Reddit communities. Built with ethics-aware design: focuses on aggregate patterns, not individual targeting.</p>
+        <div class="project-links">
+          <a href="https://github.com/AtulDeshpande09/reddit-sentiment" target="_blank" class="btn btn-sm btn-primary">View Code</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>Languages</h4>
+          <p>Python, SQL, Bash, JavaScript (foundational)</p>
+        </div>
+        <div class="skill-category">
+          <h4>ML / GenAI</h4>
+          <p>PyTorch • Transformers • BGE-M3 • LangChain • vLLM • Ollama • RAG Patterns • Agentic Workflows • Evaluation Metrics (MRR, NDCG, Faithfulness)</p>
+        </div>
+        <div class="skill-category">
+          <h4>Infrastructure</h4>
+          <p>FastAPI • ChromaDB • Docker • Git/GitHub Actions • Linux/Unix • Cloud Deployment (AWS/GCP basics)</p>
+        </div>
+        <div class="skill-category">
+          <h4>Practices</h4>
+          <p>Reproducible Experiments • A/B Testing • Feature Engineering • Cross-Validation • Technical Writing • Interdisciplinary Collaboration</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Competitions -->
+    <section id="experience" class="section">
+      <h2>Experience & Competitions</h2>
+      
+      <article class="experience-card">
+        <header class="experience-header">
+          <h3>Amazon ML Challenge 2025</h3>
+          <span class="experience-meta">Global Competition | [Your Result, e.g., Top 5%]</span>
+        </header>
+        <p>Developed an ensemble solution for [problem type] using feature engineering, model stacking, and rigorous validation. Learned advanced techniques for handling imbalanced data and preventing leakage in competitive ML.</p>
+        <div class="skills-tag-row">
+          <span class="skill-tag">Ensemble Methods</span>
+          <span class="skill-tag">Feature Engineering</span>
+          <span class="skill-tag">Cross-Validation</span>
+          <span class="skill-tag">XGBoost</span>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <header class="experience-header">
+          <h3>Undergraduate Research Assistant (Computational)</h3>
+          <span class="experience-meta">Department of Mechanical Engineering | Aug 2025 – Dec 2025</span>
+        </header>
+        <ul class="experience-list">
+          <li><strong>ML for Process Optimization</strong>: Deployed and benchmarked Linear Regression, Decision Trees, Random Forests, and ANNs to solve multi-output regression in manufacturing.</li>
+          <li><strong>Robust Validation</strong>: Implemented K-Fold cross-validation and hyperparameter tuning to ensure generalization on real-world experimental data.</li>
+          <li><strong>Feature Analysis</strong>: Identified key drivers of system performance via feature importance analysis on machining parameters.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Learning & Archives (Optional Depth) -->
+    <section id="learning" class="section">
+      <h2>Learning & Open Contributions</h2>
+      <p>I maintain public archives of coursework and exercises to support community learning:</p>
+      <div class="grid-3">
+        <div class="card">
+          <h3>ML/DL Algorithms</h3>
+          <p>Implementations of core machine learning and deep learning algorithms from scratch.</p>
+          <a href="https://github.com/AtulDeshpande09/ML-DL-Algorithms" target="_blank" class="link-arrow">View Archive</a>
+        </div>
+        <div class="card">
+          <h3>NLP Assignments</h3>
+          <p>Practical exercises in tokenization, embeddings, sequence modeling, and evaluation.</p>
+          <a href="https://github.com/AtulDeshpande09/NLP-Assignments" target="_blank" class="link-arrow">View Archive</a>
+        </div>
+        <div class="card">
+          <h3>Hugging Face LLM Course</h3>
+          <p>Notebooks and quizzes from the Hugging Face LLM specialization.</p>
+          <a href="https://github.com/AtulDeshpande09/huggingface-llm-course-notebooks" target="_blank" class="link-arrow">View Notebooks</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        I'm actively seeking ML Engineering and GenAI roles where I can contribute to 
+        building reliable, scalable AI systems. Let's connect.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:your.email@domain.com" class="contact-link">Email</a>
+        <a href="https://github.com/AtulDeshpande09" target="_blank" class="contact-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/atul-deshpande-504898271" target="_blank" class="contact-link">LinkedIn</a>
+        <a href="https://huggingface.co/AtulDeshpande" target="_blank" class="contact-link">Hugging Face</a>
+        <a href="#" class="contact-link">Resume (PDF)</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Atul Deshpande. All rights reserved.</p>
+      <p class="footer-note">Last updated: June 2026</p>
+    </div>
+  </footer>
+
+  <!-- Simple Video Toggle Script -->
+  <script>
+    function toggleVideo(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.style.display = el.style.display === 'none' ? 'block' : 'none';
+      }
+    }
+  </script>
+
+</body>
+</html>
